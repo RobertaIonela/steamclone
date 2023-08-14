@@ -1,0 +1,56 @@
+/* CSS pentru butonul de Log In */
+.login-button {
+  background-color: #171a21;
+  color: #a5a5a5;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  padding: 8px 12px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* CSS pentru formularul de logare */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* CSS pentru etichetele si inputurile formularului */
+.login-form label {
+  display: flexbox;
+  margin-top: 10px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 14px;
+  border: 1px solid #ff00ff;
+  border-radius: 4px;
+}
+
+/* butonul de Trimite */
+.submit-button {
+  background-color: #ff00dd;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  margin-top: 13px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #b30095;
+}

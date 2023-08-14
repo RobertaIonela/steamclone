@@ -1,0 +1,21 @@
+.titles4-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.titles4-text-content {
+  text-align: center;
+}
+
+.titles4 {
+  color: white;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: rgb(255, 0, 119) 10px 0 10px;
+}
+
+.titles4-description {
+  color: white;
+}

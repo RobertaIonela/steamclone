@@ -1,0 +1,29 @@
+.slide-show-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.slick-dots li button:before {
+  color: #fff;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff00ff;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #fff;
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  color: #ff00ff;
+}
+.slide-description {
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+}

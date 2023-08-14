@@ -1,0 +1,71 @@
+.steam-containerSC {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.game-cardSC {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+  border-radius: 4px;
+  background: linear-gradient(
+    to top,
+    rgba(179, 0, 255, 0.685),
+    rgba(255, 255, 255, 0)
+  );
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.game-cardSC img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.game-detailsSC {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.titleSC {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.priceSC {
+  font-weight: bold;
+}
+
+.original-priceSC {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.discountSC {
+  color: red;
+  margin-right: 5px;
+}
+
+.final-priceSC {
+  color: green;
+}
+
+.buy-buttonSC {
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 9px 17px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+}

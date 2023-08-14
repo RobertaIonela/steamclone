@@ -1,0 +1,36 @@
+.steam-containerMC {
+  display: flex;
+  justify-content: center;
+}
+
+.game-imageMC {
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+}
+
+.game-detailsMC {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.game-titleMC {
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: rgb(255, 0, 225) 1px 0 10px;
+}
+
+.game-descriptionMC {
+  font-size: 15px;
+  color: white;
+}
+.game-cardMC {
+  width: 800px;
+  display: flex;
+  padding: 40px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: #171a21;
+  box-shadow: 0px 0px 40px rgba(204, 0, 255, 0.509);
+}

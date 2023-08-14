@@ -1,0 +1,122 @@
+.reviews-section {
+  margin-top: 20px;
+}
+
+.reviews-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 220px;
+  margin-top: 0px;
+}
+
+.review {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #fc5bffb5;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.review img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.review h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.review p {
+  font-size: 14px;
+  color: #888;
+}
+
+.review-button {
+  padding: 10px 20px;
+  background-image: linear-gradient(
+    rgb(74, 39, 89),
+    rgb(255, 0, 217),
+    rgb(74, 39, 89)
+  );
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 700px;
+}
+
+.review-button:hover {
+  background-image: linear-gradient(
+    rgb(255, 0, 217),
+    rgb(74, 39, 89),
+    rgb(255, 0, 217)
+  );
+}
+
+.review-form {
+  margin-top: 20px;
+  background-color: black;
+}
+
+.review-form h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.review-form label {
+  background-color: rgb(0, 0, 0);
+  font-size: 35px;
+  display: block;
+  color: #fc5bffb5;
+  margin-bottom: 5px;
+}
+
+.review-form input,
+.review-form textarea {
+  background: linear-gradient(
+    to right,
+    rgba(223, 150, 255, 0.721),
+    rgba(255, 255, 255, 0)
+  );
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.review-form textarea {
+  height: 100px;
+}
+
+.review-form button[type="submit"] {
+  padding: 10px 20px;
+  background-image: linear-gradient(
+    rgb(74, 39, 89),
+    rgb(255, 0, 217),
+    rgb(74, 39, 89)
+  );
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 710px;
+}
+
+.review-form button[type="submit"]:hover {
+  background-image: linear-gradient(
+    rgb(255, 0, 217),
+    rgb(74, 39, 89),
+    rgb(255, 0, 217)
+  );
+}

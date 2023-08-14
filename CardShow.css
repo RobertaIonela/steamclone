@@ -1,0 +1,81 @@
+.card-show {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgb(247, 0, 255);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-top: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 5 5px 5px rgb(255, 0, 247);
+}
+
+.card:hover img {
+  opacity: 0.8;
+}
+
+.price-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px 10px;
+  border-radius: 20px;
+  background: linear-gradient(
+    to right,
+    rgb(179, 0, 255),
+    rgba(179, 0, 255, 0.34)
+  );
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.card.hovered .price-tag {
+  background-color: #00e676;
+}
+
+.card:hover .price-tag {
+  background-color: #00e676;
+}
+
+.card .price-tag span {
+  display: block;
+}
+
+.card .price-tag span:first-child {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.card .price-tag span:last-child {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .card-show {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+  }
+}
